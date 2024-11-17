@@ -1,0 +1,7 @@
+Nome de usuï¿½rio: vini, Senha: 2024
+Nome de usuï¿½rio: usuario_teste, Senha: senha_teste
+Tentativa de login - Nome de usuï¿½rio: vini, Senha: guedes
+Tentativa de login - Nome de usuï¿½rio: leandro, Senha: dos reis
+Tentativa de login - Nome de usuï¿½rio: jsjn, Senha: sjxs
+Tentativa de login - Nome de usuário: 88, Senha: 99
+Tentativa de login - Nome de usuário: vubj, Senha: jndj

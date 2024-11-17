@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Instagram</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <div class="login-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="logo">
+
+            <form class="login-form" method="POST" action="/login">
+                <input type="text" name="username" placeholder="Telefone, nome de usuário ou e-mail" class="input-field" required>
+                <input type="password" name="password" placeholder="Senha" class="input-field" required>
+                <button type="submit" class="login-button">Entrar</button>
+            </form>
+
+            <!-- Exibir a mensagem de erro ou sucesso -->
+            {% if message %}
+                <div class="result">
+                    <p class="message">{{ message }}</p>
+                </div>
+            {% endif %}
+
+            <div class="divider"></div>
+
+            <div class="other-options">
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                <div class="signup-option">
+                    Não tem uma conta? <a href="#">Cadastre-se</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
